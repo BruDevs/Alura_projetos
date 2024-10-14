@@ -42,18 +42,20 @@
 
 .lista-menu__titulo{
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu__link{
-
-    background: black; /* Usar background-image */
-    -webkit-background-clip: text;
-    background-clip: text;
+    background: var(--azul-degrade);
+    -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
+    background-clip: text;
     text-transform: uppercase;
-    /*background-image: var(--azul-degrade);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-transform: uppercase;*/
 }
+
+.container__botao{
+    display: none;
+}
+
+
+
